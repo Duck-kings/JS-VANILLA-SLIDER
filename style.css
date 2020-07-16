@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#screen{
+    height: 600px;
+    width: 800px;
+    border: 5px solid;
+    position: absolute;
+    left: 20%;
+    top: 5%;
+    overflow: hidden;
+}
+#tracker{
+    display: flex;
+    transition: 1.5s;
+}
+.btnb{
+    height: 150px;
+    width: 90px;
+    border: none;
+    background: #adadad;
+    position: absolute;
+    top: 25%;
+    left: 11%;
+    outline: none;
+    border-radius: 8%;
+    font-size: 45px;
+    z-index: 1;
+}
+.btnf{
+    height: 150px;
+    width: 90px;
+    border: none;
+    background: #adadad;
+    position: absolute;
+    top: 25%;
+    left: 86%;
+    outline: none;
+    border-radius: 8%;
+    font-size: 45px;
+}
+.btnb:hover, .btnf:hover{
+    background: #696969;
+}
